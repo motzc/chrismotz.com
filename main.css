@@ -809,7 +809,7 @@ input[type="submit"]:hover{
 .item-intro h6{
     font-size: 2rem;
     font-weight: 400;
-    margin-bottom: 5rem;
+    margin-bottom: 8rem;
 }
 
 .iframe-container{
@@ -818,9 +818,16 @@ input[type="submit"]:hover{
 }
 
 
-
+.item-description h1{
+    margin-bottom: 1rem;
+}
 .item-description p{
     margin-bottom: 2rem;
+}
+
+.item-description b{
+    font-style: italic;
+    font-weight: 400;
 }
 
 
