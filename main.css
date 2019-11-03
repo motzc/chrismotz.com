@@ -681,7 +681,9 @@ input[type="submit"]:hover{
     /* color: #221e3f; */
     color: #b80f0a;
 }
+/*End contact*/
 
+/*Start copyright*/
 .copyright{
     width: 100%;
     text-align: center;
@@ -692,9 +694,9 @@ input[type="submit"]:hover{
 }
 
 
-/*End contact*/
 
-/*Start copyright*/
+
+
 .up{
     position: absolute;
     width: 5rem;
@@ -772,7 +774,7 @@ input[type="submit"]:hover{
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 
 }
 
@@ -780,7 +782,7 @@ input[type="submit"]:hover{
 .item-intro h1::after{
     content: '';
     position: absolute;
-    bottom: -1rem;
+    bottom: -1.5rem;
     left: 4.2%;
     transform: translateX(-50%);
     background-color: #363636;
@@ -796,13 +798,14 @@ input[type="submit"]:hover{
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
-    bottom: -1.6rem;
+    bottom: -2.1rem;
 }
 
 .item-intro p{
     width: 500px;
     text-align: left;
-    margin-bottom: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
     /* font-weight: 300; */
 }
 
@@ -821,6 +824,21 @@ input[type="submit"]:hover{
 .item-description h1{
     margin-bottom: 1rem;
 }
+.item-description h6{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #363636;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.item-description li{
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
 .item-description p{
     margin-bottom: 2rem;
 }
@@ -835,8 +853,140 @@ input[type="submit"]:hover{
 /*Thumbtack page end*/
 
 
+/* Motus page starts */
 
+.project-img{
+    height: 300px;
+    width: 620px;
+    float: right;
+}
 
+.space-above{
+    margin-top: 1rem;
+}
+
+.feelings{
+    color:#b80f0a;
+}
+
+.more-space{
+    margin-top: 2rem;
+}
+
+.purpose-statement{
+    margin-left: 5rem;
+    width: 60%;
+}
+
+.purpose-statement ul{
+    list-style-type: square;
+}
+.structure-img{
+    height: 300px;
+    width: 500px;
+    float: right;
+}
+
+.slidershow{
+    width: 720px;
+    height: 405px;
+    overflow: hidden;
+
+}
+
+.middle{
+    position: relative;
+    /* top: 50%;
+    left: 50%; */
+    /* transform: translateX(25%); */
+    /* transform: translate(-50%, -50%); */
+    margin-top: 12rem;
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+}
+
+.nav-bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+}
+
+.nav-bar:hover{
+    background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 800%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 12.5%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1{
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1{
+    margin-left: -12.5%;
+}
+
+#r3:checked ~ .s1{
+    margin-left: -25%;
+}
+
+#r4:checked ~ .s1{
+    margin-left: -37.5%;
+}
+
+#r5:checked ~ .s1{
+    margin-left: -50%;
+}
+
+#r6:checked ~ .s1{
+    margin-left: -62.5%;
+}
+
+#r7:checked ~ .s1{
+    margin-left: -75%;
+}
+
+#r8:checked ~ .s1{
+    margin-left: -87.5%;
+}
+
+.empty-space{
+    width: 100%;
+    text-align: center;
+    background-color: #b80f0a;
+    padding: 2rem 0;
+    position: relative;
+    color: #eee;
+    visibility: hidden;
+}
+/* Motus page ends */
 
 
 
