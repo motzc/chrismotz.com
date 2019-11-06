@@ -493,6 +493,7 @@ input[type="complete-portfolio"]:hover{
 .item.information-bank{
     grid-row: span 2;
     grid-column: span 1;
+    background-image: url("images/portitem5.jpeg");
 }
 
 .item.ease{
@@ -504,6 +505,8 @@ input[type="complete-portfolio"]:hover{
 .item.just-for-fun{
     grid-row: span 1;
     grid-column: span 2;
+    background-image: url("images/portitem7.jpeg");
+
 }
 
 
@@ -515,7 +518,7 @@ input[type="complete-portfolio"]:hover{
 .timeline .timeline-jobs{
     border-left: 4px solid #dc3420;
     border-radius: .4rem;
-    background-color: rgba(0, 0, 0, 0.02);
+    /* background-color: rgba(0, 0, 0, 0.02); */
     margin: 0 0 0 15rem;
     position: relative;
     padding: 1rem;
@@ -540,7 +543,7 @@ input[type="complete-portfolio"]:hover{
 }
 .timeline .date{
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
     padding-bottom: 1rem;
     position: relative;
 }
