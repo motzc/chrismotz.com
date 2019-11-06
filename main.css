@@ -421,12 +421,7 @@ input[type="complete-portfolio"]:hover{
     background-position: center;
 }
 
-.item.thumbtack{
-    grid-row: span 2;
-    grid-column: span 1;
-    background-image: url("images/portitem1.jpeg");
 
-}
 
 .item:hover{
     grid-row: span 2;
@@ -461,6 +456,12 @@ input[type="complete-portfolio"]:hover{
     opacity: 1;
 }
 
+.item.thumbtack{
+    grid-row: span 2;
+    grid-column: span 1;
+    background-image: url("images/portitem1.jpeg");
+
+}
 
 .item.motus{
     grid-row: span 3;
@@ -1080,11 +1081,18 @@ input[name="r"]{
 
     .landing-text h1{
         font-size: 8rem;
+        text-align: center;
     }
     
     .landing-text h6{
         font-size: 1.4rem;
+        text-align: center;
     }
+
+    .section-heading h1::before,
+    .section-heading h1::after{
+    left: 15%;
+}
 
     .nav-link{
         font-size: 3.5rem;
@@ -1112,6 +1120,61 @@ input[name="r"]{
         order: 2;
     }
 
+    .portfolio-mosaic{
+        display: grid;
+        height: 100%;
+        grid-template-rows: repeat(9, 180px);
+        grid-template-columns: repeat(1, 100%);
+        grid-gap: 20px;
+    }
+
+    .item.thumbtack{
+        grid-row: span 2;
+        grid-column: span 1;
+        background-image: url("images/portitem1.jpeg");
+    
+    }
+    
+    .item.motus{
+        grid-row: span 3;
+        grid-column: span 1;
+        background-image: url("images/portitem2.jpeg");
+    }
+    
+    
+
+    
+    .item.gizmo{
+        grid-row: span 4;
+        grid-column: span 1;
+        background-image: url("images/portitem3.jpeg");
+    }
+    
+    .item.gc{
+        grid-row: span 2;
+        grid-column: span 1;
+        background-image: url("images/portitem4.jpeg");
+        /* order: 2; */
+    }
+
+    
+    .item.information-bank{
+        grid-row: span 2;
+        grid-column: span 1;
+        /* order: 1; */
+    }
+    
+    .item.ease{
+        grid-row: span 3;
+        grid-column: span 1;
+        background-image: url("images/portitem6.jpeg");
+    }
+    
+    .item.just-for-fun{
+        grid-row: span 1;
+        grid-column: span 1;
+    }
+
     .timeline p{
         font-size: 1.6rem;
     }
@@ -1127,21 +1190,4 @@ input[name="r"]{
     .up{
         right: 2rem;
     }
-
 }
-    /*media queries*/
-
-/* ul {
-    font-family: monospace;
-}
-
-
-.list {
-    list-style: square; 
-}
-
-#date {
-    font-size: 12px;
-    font-style: italic;
-    font-weight: bold;
-} */
