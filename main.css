@@ -891,11 +891,14 @@ input[type="submit"]:hover{
     float: right;
 }
 
+
+/* Motus slider  starts*/
 .slidershow{
     width: 720px;
     height: 405px;
     overflow: hidden;
-
+    left: 50%;
+    transform: translate(-50%);
 }
 
 .middle{
@@ -990,7 +993,45 @@ input[name="r"]{
     color: #eee;
     visibility: hidden;
 }
+
+/* Motus slider  ends*/
 /* Motus page ends */
+
+/* Gizmo page starts */
+.slidershow-gizmo {
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+    float: right;
+    margin: auto;
+    /* vertical-align: middle;
+    justify-content: center; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.gizmo-text {
+    /* transform: translate(0, 30%); */
+}
+
+.empty-space-gizmo{
+    width: 100%;
+    text-align: center;
+    background-color: #b80f0a;
+    padding: 10rem 0;
+    position: relative;
+    color: #eee;
+    visibility: hidden;
+}
+
+.nav-bar-gizmo{
+    width: 40px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+}
+
+/* Gizmo page ends */
 
 /* AURA test page starts */
 .video-container{
