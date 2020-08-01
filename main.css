@@ -13,7 +13,7 @@ html {
 body {
     width: 100%;
     height: 100%;
-    background: url(images/website-background.jpg) no-repeat center fixed;
+    background: #f8f8f8;
     background-size: cover;
 }
 section{
@@ -1121,10 +1121,23 @@ font-weight: 300;
 }
 /*End Animation*/
 
+@media screen and (max-width: 1000px) {
+    .section-heading {
+        text-align: center;
+    }
+
+    .section-heading h1::before,
+    .section-heading h1::after{
+        left: 50%;
+    }
+}
+
+
+
 /*media queries*/
 @media screen and (max-width: 768px) {
     body {
-        background: url("images/website-background.jpg") no-repeat center fixed;
+        background: #f8f8f8;
         background-size: cover;
     }
 
@@ -1151,8 +1164,17 @@ font-weight: 300;
         font-size: 8rem;
     }
 
+    .section-heading {
+        text-align: center;
+    }
+    
     .section-heading h1{
         font-size: 3rem;
+    }
+
+    .section-heading h1::before,
+    .section-heading h1::after{
+        left: 50%;
     }
 
     .about-details .nav-list{
@@ -1183,9 +1205,13 @@ font-weight: 300;
     .timeline .date::after{
         left: -5.9rem;
     }
+
+    .contact p{
+        width: 90%;    
+    }
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 600px){
     .menu-toggler{
         top: 2rem;
         right: 2rem;
@@ -1201,10 +1227,6 @@ font-weight: 300;
         text-align: center;
     }
 
-    .section-heading h1::before,
-    .section-heading h1::after{
-    left: 15%;
-}
 
     .nav-link{
         font-size: 3.5rem;
@@ -1253,9 +1275,6 @@ font-weight: 300;
         background-image: url("images/portitem2.jpeg");
     }
     
-    
-
-    
     .item.gizmo{
         grid-row: span 4;
         grid-column: span 1;
@@ -1302,4 +1321,9 @@ font-weight: 300;
     .up{
         right: 2rem;
     }
+
+    /* contact  starts */ 
+
+    /* contact  end */ 
+
 }
