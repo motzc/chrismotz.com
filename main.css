@@ -1031,6 +1031,11 @@ input[name="r"]{
     cursor: pointer;
 }
 
+
+.nav-bar-gizmo:hover{
+    background: #fff;
+}
+
 /* Gizmo page ends */
 
 /* AURA test page starts */
