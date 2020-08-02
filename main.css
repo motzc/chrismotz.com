@@ -15,6 +15,8 @@ body {
     height: 100%;
     background: #f8f8f8;
     background-size: cover;
+    margin: 0;
+    padding: 0;
 }
 section{
     padding: 6rem 0;
@@ -1257,7 +1259,7 @@ font-weight: 300;
     .portfolio-mosaic{
         display: grid;
         height: 100%;
-        grid-template-rows: repeat(9, 180px);
+        grid-template-rows: repeat(15, 180px);
         grid-template-columns: repeat(1, 100%);
         grid-gap: 20px;
     }
@@ -1265,14 +1267,14 @@ font-weight: 300;
     .item.thumbtack{
         grid-row: span 2;
         grid-column: span 1;
-        background-image: url("images/portitem1.jpeg");
+        background-image: url("images/portitem1_mobile.jpeg");
     
     }
     
     .item.motus{
-        grid-row: span 3;
+        grid-row: span 2;
         grid-column: span 1;
-        background-image: url("images/portitem2.jpeg");
+        background-image: url("images/portitem2_mobile.jpeg");
     }
     
     .item.gizmo{
@@ -1287,16 +1289,16 @@ font-weight: 300;
         background-image: url("images/portitem4.jpeg");
         /* order: 2; */
     }
-
     
     .item.information-bank{
         grid-row: span 2;
         grid-column: span 1;
+        background-image: url("images/portitem5_mobile.jpeg");
         /* order: 1; */
     }
     
     .item.ease{
-        grid-row: span 3;
+        grid-row: span 2;
         grid-column: span 1;
         background-image: url("images/portitem6.jpeg");
     }
@@ -1304,6 +1306,8 @@ font-weight: 300;
     .item.just-for-fun{
         grid-row: span 1;
         grid-column: span 1;
+        background-image: url("images/portitem7.jpeg");
+
     }
 
     .timeline p{
@@ -1322,8 +1326,10 @@ font-weight: 300;
         right: 2rem;
     }
 
-    /* contact  starts */ 
-
-    /* contact  end */ 
+    /* portfolio  starts */ 
+    .item{
+        font-size: 3rem;
+    }
+    /* portfolio  end */ 
 
 }
