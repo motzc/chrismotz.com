@@ -288,7 +288,7 @@ li {
     text-align: center;
 }
 
-.skil{
+.skill{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -771,9 +771,15 @@ input[type="submit"]:hover{
 }
 
 .item-intro{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
     /* align-items: center;
     justify-content: center;
     margin-bottom: 5rem; */
+}
+.item-brief {
+    flex: 1;
 }
 
 .item-intro h1{
@@ -791,7 +797,7 @@ input[type="submit"]:hover{
     content: '';
     position: absolute;
     bottom: -1.5rem;
-    left: 4.2%;
+    left: 10%;
     transform: translateX(-50%);
     background-color: #363636;
 
@@ -810,7 +816,7 @@ input[type="submit"]:hover{
 }
 
 .item-intro p{
-    width: 500px;
+    max-width: 500px;
     text-align: left;
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -824,8 +830,20 @@ input[type="submit"]:hover{
 }
 
 .iframe-container{
-    float: right;
+    /* float: right; */
+/* 
+    overflow:hidden; 
+    padding-bottom:56.25%;
+    position:relative;
+    height:0; */
+}
 
+.iframe-container iframe{
+    /* left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute; */
 }
 
 
@@ -1124,6 +1142,38 @@ font-weight: 300;
     }
 }
 /*End Animation*/
+
+
+@media screen and (max-width: 1200px) {
+    .item-intro{
+        flex-direction: column;
+        text-align: center;
+    }
+    .item-brief{
+        text-align: center;
+    }
+
+    .item-intro h1::before,
+    .item-intro h1::after{
+
+        left: 50%;
+    }
+    .iframe-container{
+    
+        overflow:hidden; 
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    
+    .iframe-container iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+}
 
 @media screen and (max-width: 1000px) {
     .section-heading {
