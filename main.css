@@ -30,7 +30,7 @@ a {
 
 p {
     font-size: 1.8rem;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 img {
@@ -648,7 +648,7 @@ input[type="resume"]:hover{
     margin-bottom: 2rem;
 }
 .contact p{
-    width: 700px;
+    max-width: 700px;
 }
 
 form{
@@ -780,6 +780,7 @@ input[type="submit"]:hover{
 }
 .item-brief {
     flex: 1;
+    margin-right: 2rem;
 }
 
 .item-intro h1{
@@ -816,7 +817,7 @@ input[type="submit"]:hover{
 }
 
 .item-intro p{
-    max-width: 500px;
+    /* max-width: 500px; */
     text-align: left;
     font-size: 2rem;
     margin-bottom: 1.5rem;
@@ -1149,21 +1150,30 @@ font-weight: 300;
         flex-direction: column;
         text-align: center;
     }
+
     .item-brief{
         text-align: center;
+        margin-right: 0rem;
     }
+
 
     .item-intro h1::before,
     .item-intro h1::after{
 
         left: 50%;
     }
+
+    .item-intro h6{
+
+        margin-bottom: 4rem;
+    }
+
     .iframe-container{
-    
         overflow:hidden; 
         padding-bottom:56.25%;
         position:relative;
         height:0;
+        margin-bottom: 4rem;
     }
     
     .iframe-container iframe{
@@ -1173,6 +1183,7 @@ font-weight: 300;
         width:100%;
         position:absolute;
     }
+    
 }
 
 @media screen and (max-width: 1000px) {
@@ -1260,9 +1271,6 @@ font-weight: 300;
         left: -5.9rem;
     }
 
-    .contact p{
-        width: 90%;    
-    }
 }
 
 @media screen and (max-width: 600px){
