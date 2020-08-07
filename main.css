@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 }
 html {
     font-size: 10px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #000000;
 
 }
@@ -124,7 +125,7 @@ li {
 }
 
 .nav-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 5rem;
     padding: 1rem;
     color: #000000;
@@ -193,7 +194,7 @@ li {
 
 .landing-text{
     position: absolute;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -463,14 +464,14 @@ input[type="complete-portfolio"]:hover{
 .item.thumbtack{
     grid-row: span 2;
     grid-column: span 1;
-    background-image: url("images/portitem1.jpeg");
+    background-image: url("images/index/portitem1.jpeg");
 
 }
 
 .item.motus{
     grid-row: span 3;
     grid-column: span 1;
-    background-image: url("images/portitem2.jpeg");
+    background-image: url("images/index/portitem2.jpeg");
 }
 
 
@@ -481,13 +482,13 @@ input[type="complete-portfolio"]:hover{
 .item.gizmo{
     grid-row: span 4;
     grid-column: span 1;
-    background-image: url("images/portitem3.jpeg");
+    background-image: url("images/index/portitem3.jpeg");
 }
 
 .item.gc{
     grid-row: span 2;
     grid-column: span 1;
-    background-image: url("images/portitem4.jpeg");
+    background-image: url("images/index/portitem4.jpeg");
 }
 
 .item.gc::after{
@@ -497,19 +498,19 @@ input[type="complete-portfolio"]:hover{
 .item.information-bank{
     grid-row: span 2;
     grid-column: span 1;
-    background-image: url("images/portitem5.jpeg");
+    background-image: url("images/index/portitem5.jpeg");
 }
 
 .item.ease{
     grid-row: span 3;
     grid-column: span 1;
-    background-image: url("images/portitem6.jpeg");
+    background-image: url("images/index/portitem6.jpeg");
 }
 
 .item.just-for-fun{
     grid-row: span 1;
     grid-column: span 2;
-    background-image: url("images/portitem7.jpeg");
+    background-image: url("images/index/portitem7.jpeg");
 
 }
 
@@ -734,12 +735,12 @@ input[type="submit"]:hover{
 /*Portfolio pages beginning*/
 .portfolio-item-header{
     width: 100%;
-    height: 20vh;
+    height: 10vh;
 }
 
 .item-text{
     position: absolute;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -749,7 +750,7 @@ input[type="submit"]:hover{
 }
 
 .item-text h1{
-    font-size: 2rem;
+    font-size: 1.8rem;
     /* background: #000000; */
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.08);
     -webkit-background-clip: text;
@@ -771,17 +772,17 @@ input[type="submit"]:hover{
 }
 
 .item-intro{
-    display: flex;
-    /* align-items: center; */
-    justify-content: space-between;
-    /* align-items: center;
-    justify-content: center;
-    margin-bottom: 5rem; */
+    text-align: center;
+    margin-bottom: 5rem;
+    margin: auto;
+    /* max-width: 1000px; */
 }
-.item-brief {
+/* .item-brief {
     flex: 1;
-    margin-right: 2rem;
-}
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+} */
 
 .item-intro h1{
     font-size: 3.5rem;
@@ -789,7 +790,7 @@ input[type="submit"]:hover{
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
 }
 
@@ -797,8 +798,8 @@ input[type="submit"]:hover{
 .item-intro h1::after{
     content: '';
     position: absolute;
-    bottom: -1.5rem;
-    left: 10%;
+    bottom: -2rem;
+    left: 50%;
     transform: translateX(-50%);
     background-color: #363636;
 
@@ -813,7 +814,7 @@ input[type="submit"]:hover{
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 100%;
-    bottom: -2.1rem;
+    bottom: -2.6rem;
 }
 
 .item-intro p{
@@ -821,36 +822,72 @@ input[type="submit"]:hover{
     text-align: left;
     font-size: 2rem;
     margin-bottom: 1.5rem;
-    /* font-weight: 300; */
+    font-weight: 200;
 }
 
 .item-intro h6{
     font-size: 2rem;
-    font-weight: 400;
-    margin-bottom: 8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
 }
 
 .iframe-container{
-    /* float: right; */
-/* 
     overflow:hidden; 
     padding-bottom:56.25%;
     position:relative;
-    height:0; */
+    height:0;
+    margin-bottom: 3rem;
 }
 
 .iframe-container iframe{
-    /* left:0;
+    left:0;
     top:0;
     height:100%;
     width:100%;
-    position:absolute; */
+    position:absolute;
 }
+
+
+
+
+/*Thumbtack page end*/
+
+
+/* Motus page starts */
+
+.motus-image-container{
+    height: 100%; 
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 3rem;
+}
+
+.motus-hero{
+    max-width: 500px;
+    height: 100%;
+    /* margin: 2rem; */
+    margin-bottom: 3rem;
+}
+
+
+.space-above{
+    margin-top: 1rem;
+}
+
+.feelings{
+    color:#b80f0a;
+}
+
+.more-space{
+    margin-top: 2rem;
+}
+
 
 
 .item-description h1{
     margin-bottom: 1rem;
 }
+
 .item-description h6{
     font-size: 1.8rem;
     font-weight: 300;
@@ -875,34 +912,25 @@ input[type="submit"]:hover{
     font-weight: 400;
 }
 
-
-
-/*Thumbtack page end*/
-
-
-/* Motus page starts */
-
-.project-img{
-    height: 100%;
-    max-width: 620px;
-    float: right;
-}
-
-.space-above{
-    margin-top: 1rem;
-}
-
-.feelings{
-    color:#b80f0a;
-}
-
-.more-space{
-    margin-top: 2rem;
-}
-
 .purpose-statement{
-    margin-left: 5rem;
-    max-width: 500px;
+    margin: 0rem 0rem 3rem 5rem;
+    max-width: 800px;
+    text-align: left;
+}
+
+.purpose-statement h6{
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #363636;
+    margin-bottom: 1rem;
+    font-style: italic;   
+}
+
+.purpose-statement li{
+    font-size: 1.8rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 1rem;
 }
 
 .purpose-statement ul{
@@ -917,11 +945,13 @@ input[type="submit"]:hover{
 
 /* Motus slider  starts*/
 .slidershow{
-    max-width: 720px;
+    max-width: 800px;
     height: 100%;
     overflow: hidden;
     left: 50%;
     transform: translate(-50%);
+
+
 }
 
 .middle{
@@ -930,7 +960,7 @@ input[type="submit"]:hover{
     left: 50%; */
     /* transform: translateX(25%); */
     /* transform: translate(-50%, -50%); */
-    margin-top: 12rem;
+    margin-top: 3rem;
 }
 
 .navigation{
@@ -1022,20 +1052,21 @@ input[name="r"]{
 
 /* Gizmo page starts */
 .slidershow-gizmo {
-    max-width: 450px;
+    max-width: 600px;
     height: 100%;
     overflow: hidden;
-    float: right;
+    margin-bottom: 3rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.gizmo-image-container{
+    height: 100%; 
+    max-width: 500px;
     margin: auto;
-    /* vertical-align: middle;
-    justify-content: center; */
-    /* transform: translate(-50%, -50%); */
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
-
-.gizmo-text {
-    /* transform: translate(0, 30%); */
-}
-
 .empty-space-gizmo{
     width: 100%;
     text-align: center;
@@ -1061,13 +1092,46 @@ input[name="r"]{
 
 /* Gizmo page ends */
 
+/* Data Beast page start */
+.process-img{
+    height: 100%;
+    max-width: 500px;
+    float: right;
+    margin-left: 3rem;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.databeast-img {
+    max-width: 500px;
+    height: 100%;
+    margin-bottom: 2rem;
+}
+
+/* Data Beast page ends */
+
+/* Infromation Bank Starts */
+.process-ib-img{
+    height: 100%;
+    max-width: 500px;
+    float: left;
+    margin-right: 3rem;
+    margin-bottom: 3rem;
+}
+/* Infromation Bank Ends */
+
+
 /* AURA test page starts */
 .video-container{
   text-align: center;
 }
 .aura-text{
     position: absolute;
-    font-family: 'Roboto';
+    font-family: 'Montserrat';
     top: 5%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1165,27 +1229,32 @@ font-weight: 300;
 
     .item-intro h6{
 
-        margin-bottom: 4rem;
+        margin-bottom: 3rem;
     }
 
     .iframe-container{
-        overflow:hidden; 
+        /* overflow:hidden; 
         padding-bottom:56.25%;
         position:relative;
         height:0;
-        margin-bottom: 4rem;
+        margin-bottom: 4rem; */
     }
     
     .iframe-container iframe{
-        left:0;
+        /* left:0;
         top:0;
         height:100%;
         width:100%;
-        position:absolute;
+        position:absolute; */
     }
     .project-img{
         margin-bottom: 4rem;
     }
+
+    .image-container{
+        flex-direction: column;
+    }
+    
     
 }
 
@@ -1343,46 +1412,46 @@ font-weight: 300;
     .item.thumbtack{
         grid-row: span 2;
         grid-column: span 1;
-        background-image: url("images/portitem1_mobile.jpeg");
+        background-image: url("images/index/portitem1_mobile.jpeg");
     
     }
     
     .item.motus{
         grid-row: span 2;
         grid-column: span 1;
-        background-image: url("images/portitem2_mobile.jpeg");
+        background-image: url("images/index/portitem2_mobile.jpeg");
     }
     
     .item.gizmo{
         grid-row: span 4;
         grid-column: span 1;
-        background-image: url("images/portitem3.jpeg");
+        background-image: url("images/index/portitem3.jpeg");
     }
     
     .item.gc{
         grid-row: span 2;
         grid-column: span 1;
-        background-image: url("images/portitem4.jpeg");
+        background-image: url("images/index/portitem4.jpeg");
         /* order: 2; */
     }
     
     .item.information-bank{
         grid-row: span 2;
         grid-column: span 1;
-        background-image: url("images/portitem5_mobile.jpeg");
+        background-image: url("images/index/portitem5_mobile.jpeg");
         /* order: 1; */
     }
     
     .item.ease{
         grid-row: span 2;
         grid-column: span 1;
-        background-image: url("images/portitem6.jpeg");
+        background-image: url("images/index/portitem6.jpeg");
     }
     
     .item.just-for-fun{
         grid-row: span 1;
         grid-column: span 1;
-        background-image: url("images/portitem7.jpeg");
+        background-image: url("images/index/portitem7.jpeg");
 
     }
 
@@ -1412,14 +1481,25 @@ font-weight: 300;
         padding: 5rem 0;
 
     }
+    .process-img{
+        margin: 0rem 0rem 2rem 0rem;
+    }
 
-
-
-
+    .ib-outcome-img{
+        content: url("images/ib/ib-outcome-mobile.png");
+        max-width: 500px;
+        width: 100%;
+        height: auto;
+    }
 
     /* portfolio  starts */ 
     .item{
         font-size: 3rem;
+    }
+
+    .portfolio-item-header{
+        width: 100%;
+        height: 15vh;
     }
     /* portfolio  end */ 
 
