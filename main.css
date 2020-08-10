@@ -969,7 +969,6 @@ input[type="submit"]:hover{
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-
 }
 
 .nav-bar{
@@ -1107,9 +1106,23 @@ input[name="r"]{
 }
 
 .databeast-img {
-    max-width: 500px;
+    max-width: 570px;
     height: 100%;
     margin-bottom: 2rem;
+}
+
+.databeast-image-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.navigation-databeast{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
 }
 
 /* Data Beast page ends */
