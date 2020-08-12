@@ -6,6 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Chris Motz | Ease</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="main.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
@@ -13,15 +14,45 @@
         <script src="https://kit.fontawesome.com/2402c559ad.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <header>
+        <header class="portfolio-item-header">
             <div class="item-text">
                 <h1 style="text-align: left; width:49%; display: inline-block">Chris Motz</h1>
                 <a href="index.html" class="cta" style="text-align: right; width:50%; display: inline-block;">Go Back</a>
             </div>
-            <div class="landing-text">
-                <h1>Ease</h1>
-                <h6>Global Health</h6>
-            </div>
         </header>
+        <div class="container">
+            <div class="item-intro" id="item-intro">
+                <h1>Ease</h1>
+                <h6>Health insurance for the global citizens</h6>
+                <div class="ease-outcome">
+                    <img id="ease-outcome1" src="images/ease/ease-outcome1.png">
+                </div>
+                <p>Why is it so hard to find medical services abroad? The world is more accessible than ever before (well… pre-COVID-19 pandemic), enabling more people to travel and live abroad. However, health insurance has not yet caught up to this increasingly nomadic population. Though widely available, global health insurance today does not fill the massive information that exists when trying to access healthcare services abroad. If you get sick abroad, where do you go? How much will it cost? And how do you make sure you get the care you need?</p>
+                <div class="ease-outcome">
+                    <img id="ease-outcome2" src="images/ease/ease-outcome2.png">
+                </div>
+                <p>Ease is project that looks at how we might design health insurance for the modern global citizens. It is a service that connects that growing expat and traveler communities to health services abroad. Ease provides full medical coverage globally and lets you tailor your plan by choosing the services which best suit your needs. But where it truly differentiates itself from traditional insurance providers is by how easy it makes it to get medical care abroad through its guidance, support, and automated care. Prototypes for Ease were created in Sketch/Principle while an MVP was developed in Swift.</p>
+                <div class="image-container">
+                    <img class="ease-process" id="ease-process1" src="images/ease/ease-process1.jpg">
+                    <img class="ease-process" id="ease-process2" src="images/ease/ease-process2.jpg">
+                </div>
+                <p>The COVID-19 pandemic has called into question the way we think about travel and health and created a great deal of industry with the future of both industries. However, if one thing is certain, it is that there will be a greater need and relevance for services like Ease in the future.</p>
+                <h5>Completed with Eva Oosterlaken</h5>
+                <h6>Tokyo, Japan | July 2019</h6>
+            </div>
+        </div>
+        <footer class="copyright">
+            <div class="up" id="up">
+                    <i class="fas fa-chevron-up"></i>
+            </div>
+            <p>&copy; 2020 Chris Motz</p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+        <script src="app.js"></script>
+        <noscript>You need to enable JavaScript to view the full site.</noscript>
     </body>
 </html>
